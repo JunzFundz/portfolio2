@@ -73,10 +73,7 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Crafting <span className="text-primary glow-text">digital</span>
-                <br />
-                experiences.
-                <br />
+                Diongie C. Fundador<span className="text-primary glow-text"></span>
                 {/* <span className="font-serif italic font-normal text-white">
                   precision.
                 </span> */}
