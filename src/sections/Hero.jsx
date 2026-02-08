@@ -1,4 +1,5 @@
 import { Button } from "@/components/Button";
+import photo from "../../public/photo.jpg"
 import {
   ArrowRight,
   ChevronDown,
@@ -32,7 +33,7 @@ export const Hero = () => {
       {/* Bg */}
       <div className="absolute inset-0">
         <img
-          src="./public/hero-bg.jpg"
+          src="./hero-bg.jpg"
           alt="Diongie Fundador"
           className="w-full h-full object-cover opacity-40"
         />
@@ -129,7 +130,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="./public/photo.jpg"
+                  src={photo}
                   className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
 
